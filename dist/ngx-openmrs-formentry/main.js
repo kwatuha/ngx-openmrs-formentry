@@ -14607,7 +14607,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\">\n\t<div class=\"text-center\">\n\t\t\t<button class=\"btn btn-success btn-lg\" (click)=\"toggleEncounterViewer()\">{{!showingEncounterViewer ? 'Show Encounter Viewer' : 'Show Form Renderer'}}</button>\t\n\t</div>\n\n<div *ngIf=\"!showingEncounterViewer\">\n\t<error-renderer [form]=\"form\"></error-renderer>\n\t<form [formGroup]=\"form.rootNode.control\">\n\t\t<form-renderer [node]=\"form.rootNode\"></form-renderer>\n\t\t<div class=\"form-row\">\n\t\t\t<button type=\"submit\" (click)=\"onSubmit($event)\">Save</button>\n\t\t</div>\n\t</form>\n</div>\n\n<div *ngIf=\"showingEncounterViewer && form\">\n\t<encounter-renderer [form]=\"form\" [encounter]=\"encounterObject\"></encounter-renderer>\n</div>\n</div>\n\n"
+module.exports = "<div class=\"container-fluid\">\r\n\t<div class=\"text-center\">\r\n\t\t\t<button class=\"btn btn-success btn-lg\" (click)=\"toggleEncounterViewer()\">{{!showingEncounterViewer ? 'Show Encounter Viewer' : 'Show Form Renderer'}}</button>\t\r\n\t</div>\r\n\r\n<div *ngIf=\"!showingEncounterViewer\">\r\n\t<error-renderer [form]=\"form\"></error-renderer>\r\n\t<form [formGroup]=\"form.rootNode.control\">\r\n\t\t<form-renderer [node]=\"form.rootNode\"></form-renderer>\r\n\t\t<div class=\"form-row\">\r\n\t\t\t<button type=\"submit\" (click)=\"onSubmit($event)\">Save</button>\r\n\t\t</div>\r\n\t</form>\r\n</div>\r\n\r\n<div *ngIf=\"showingEncounterViewer && form\">\r\n\t<encounter-renderer [form]=\"form\" [encounter]=\"encounterObject\"></encounter-renderer>\r\n</div>\r\n</div>\r\n\r\n"
 
 /***/ }),
 
@@ -15371,7 +15371,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/fatma/ampath/ngx-openmrs-formentry/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\angularDev\ngx-formentry-op2\src\main.ts */"./src/main.ts");
 
 
 /***/ })
